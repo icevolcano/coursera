@@ -1,0 +1,134 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+background-color: #006699; 
+/* background-color: #fff; */
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+background-color: #006699;
+}
+.navbar-brand {
+   padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: #ffff66;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none; 
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffff66;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px; 
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+   padding-top: 15px;
+   /*height: 80px;*/
+  }
+  .navbar-brand h1 { /* Company name */
+    /*padding-top: 10px;*/
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav {
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	background-color: #000;
+  }
+
+  #nav-list {
+  	margin: 0px 0px 0px 0px;
+   }
+
+  #nav-list li{
+  	margin-top: 0px;
+  	padding-top: 0px;
+  	padding-bottom: 0px;
+  	width: 100%;
+  	border-radius: 0;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* End Header */
+}
+
+/* HOME PAGE */
+
+h2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+  height: 800px;
+ /* width: 100%; */
+  margin-bottom: 15px;
+  position: relative;
+  border: 0px solid #3F0C1F;
+  background-color: #ccf2ff;
+  overflow: hidden;
+}
+
+h3.item-title {
+  margin: 10 0 10px;
+  text-align: center;
+}
+.item-details {
+  font-size: .9em;
+  margin-left: 20px;
+  margin-right:20px;
+ /*  font-style: italic; */
+}
+/* END HOME PAGE */
+ 
